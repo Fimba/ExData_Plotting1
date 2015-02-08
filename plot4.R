@@ -43,7 +43,7 @@ with(hpw, plot(DateTime, Global_reactive_power, type = "l", xlab = "datetime"))
 png(file = "plot4.png", width = W, height = H)
 par(mfrow = c(2,2))
 #f1
-with(hpw, plot(DateTime, Global_active_power, type = "l", 
+with(hpw, plot(DateTime, Global_active_power, type = "l", xlab= "",
                ylab = "Global Active Power (kilowatts)"))
 #f2
 with(hpw, plot(DateTime, Voltage, type = "l", xlab = "datetime"))

@@ -37,5 +37,6 @@ colors <- c("black", "red", "blue")
 
 # figure 1
 png(file = "plot1.png", width = W, height = H)
-hist(hpw$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)")
+hist(hpw$Global_active_power, col = "red", xlab = "Global Active Power (kilowatts)",
+     main = "Global Active Power")
 dev.off()
